@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'test_app',
+     'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -145,3 +146,10 @@ EMAIL_PORT =587
 EMAIL_HOST_USER = 'masoud1212u@gmail.com'
 EMAIL_HOST_PASSWORD = 'qfoa hiyr iroc kqjd'
 #------------------------------
+
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+#     ]
+# }
